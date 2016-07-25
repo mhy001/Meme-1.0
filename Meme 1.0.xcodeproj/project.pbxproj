@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E963AFDC1D375D4E0081D9AE /* MemeStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E963AFDB1D375D4E0081D9AE /* MemeStruct.swift */; };
 		E98F60EA1D373FC200BC3E97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98F60E91D373FC200BC3E97 /* AppDelegate.swift */; };
 		E98F60EC1D373FC200BC3E97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98F60EB1D373FC200BC3E97 /* ViewController.swift */; };
 		E98F60EF1D373FC200BC3E97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E98F60ED1D373FC200BC3E97 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E963AFDB1D375D4E0081D9AE /* MemeStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeStruct.swift; sourceTree = "<group>"; };
 		E98F60E61D373FC200BC3E97 /* Meme 1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meme 1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E98F60E91D373FC200BC3E97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E98F60EB1D373FC200BC3E97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				E98F60F01D373FC200BC3E97 /* Assets.xcassets */,
 				E98F60F21D373FC200BC3E97 /* LaunchScreen.storyboard */,
 				E98F60F51D373FC200BC3E97 /* Info.plist */,
+				E963AFDB1D375D4E0081D9AE /* MemeStruct.swift */,
 			);
 			path = "Meme 1.0";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E98F60EC1D373FC200BC3E97 /* ViewController.swift in Sources */,
+				E963AFDC1D375D4E0081D9AE /* MemeStruct.swift in Sources */,
 				E98F60EA1D373FC200BC3E97 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +491,7 @@
 				E98F61101D373FC200BC3E97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E98F61111D373FC200BC3E97 /* Build configuration list for PBXNativeTarget "Meme 1.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +500,7 @@
 				E98F61131D373FC200BC3E97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E98F61141D373FC200BC3E97 /* Build configuration list for PBXNativeTarget "Meme 1.0UITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +509,7 @@
 				E98F61161D373FC200BC3E97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
